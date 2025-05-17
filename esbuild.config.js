@@ -9,5 +9,6 @@ esbuild.build({
   bundle: true,
   minify: true,
   sourcemap: false,
+  external: ['ws'],
   target: ["es2015"]
 }).catch(() => process.exit(1));
