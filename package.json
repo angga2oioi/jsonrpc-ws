@@ -1,0 +1,26 @@
+{
+  "name": "jsonrpc-ws",
+  "version": "1.0.0",
+  "main": "./dist/jsonrpc-ws.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angga2oioi/jsonrpc-ws.git"
+  },
+  "author": "angga2oioi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angga2oioi/jsonrpc-ws/issues"
+  },
+  "homepage": "https://github.com/angga2oioi/jsonrpc-ws#readme",
+  "description": "",
+  "dependencies": {
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.4"
+  }
+}
