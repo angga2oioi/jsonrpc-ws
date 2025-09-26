@@ -1,1 +1,2 @@
-because fuck you, thats why
+# Deprecated
+This repository has been withdrawn.
